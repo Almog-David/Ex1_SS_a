@@ -8,12 +8,6 @@ void main()
     int first,second,M,m;
     scanf("%d",&first);
     scanf("%d",&second);
-      while ((scanf ("%d%d" , &first , &second) != 2) || (first < 0) || (second < 0))
-    {
-        char temp;
-        scanf ("%c" , &temp);
-        printf("enter two positive numbers \n");
-    }
     if(first>second){
         M =first;
         m = second;
