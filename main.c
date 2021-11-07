@@ -16,7 +16,7 @@ void main()
         m = first;
     }
 
-    printf("The Armstrong numberes are:");
+    printf("The Armstrong numbers are:");
     for(int i=m;i<=M; i++){
         if(isArmstrong(i) == 1){
             printf(" %d" , i);
@@ -32,7 +32,7 @@ void main()
     }
 
     printf("\n");
-    printf("The Prime numberes are:");
+    printf("The Prime numbers are:");
     for(int i=m;i<=M; i++){
         if(isPrime(i)==1){
              printf(" %d" , i);
@@ -40,7 +40,7 @@ void main()
     }
 
     printf("\n");
-    printf("The Strong numberes are:");
+    printf("The Strong numbers are:");
     for(int i=m;i<=M; i++){
         if(isStrong(i)==1){
              printf(" %d" , i);
