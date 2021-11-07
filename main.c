@@ -4,17 +4,18 @@
 #include "NumClass.h"
 void main()
 {
+
     int first,second,M,m;
     scanf("%d",&first);
     scanf("%d",&second);
-    if(first>second) {
-        M = first;
-        m =second;
+      while ((scanf ("%d%d" , &first , &second) != 2) || (first < 0) || (second < 0))
+    {
+        char temp;
+        scanf ("%c" , &temp);
+        printf("enter two positive numbers \n");
     }
-    else{
-        M = second;
-        m = first;
-    }
+       int M = fmax(first,second);
+       int m = fmin(first,second);
 
     printf("The Armstrong numbers are:");
     for(int i=m;i<=M; i++){
