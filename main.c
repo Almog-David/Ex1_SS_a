@@ -14,8 +14,15 @@ void main()
         scanf ("%c" , &temp);
         printf("enter two positive numbers \n");
     }
-       int M = fmax(first,second);
-       int m = fmin(first,second);
+    if(first>second){
+        M =first;
+        m = second;
+    }
+    else {
+        M =second;
+        m =first;
+    }
+      
 
     printf("The Armstrong numbers are:");
     for(int i=m;i<=M; i++){
